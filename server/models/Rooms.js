@@ -22,6 +22,14 @@ const roomSchema = new mongoose.Schema({
       type: String,
       default: null,
     },
+    isMailSent: {
+      type: Boolean,
+      default: false,
+    },
+    isSMSSent: {
+      type: Boolean,
+      default: false,
+    },
   },
   isAlarmActive: {
     type: Boolean,
